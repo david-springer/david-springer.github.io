@@ -1,0 +1,12 @@
+/* Load our custom font. */
+
+@font-face {
+  font-family: 'Tex Gyre Adventor';
+  src: url('/third_party/TeX-Gyre-Adventor/texgyreadventor-regular.otf') format('opentype')
+}
+
+@font-face {
+  font-family: 'Tex Gyre Adventor';
+  src: url('/third_party/TeX-Gyre-Adventor/texgyreadventor-bold.otf') format('opentype')
+  font-weight: bold;
+}
