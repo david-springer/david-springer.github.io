@@ -3,17 +3,24 @@
     <title>Lion's Gate Lounge</title>
     <link rel="stylesheet" href="/css/main.css" type="text/css">
     <link rel="stylesheet" href="/css/font_face.css" type="text/css">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  </head>
+  <body class="hero_image">
+    <h1 id="title_text">Summer Coolers Workshop is here<br/>
+      Where: a href="http://www.swirlnola.com/" target="_blank">Swirl</h1>a><br/>
+      When: Saturday August 26 4:30&mdash;6:30PM.<br /> </body>h1>
+    <button class="mdc-button buy-tix-button">
+      <div class="mdc-button__ripple"></div>
+      <span class="mdc-button__label">Buy Tickets</span>
+    </button> 
     <script>
-      const button = document.querySelector(".btn-primary");
+      const button = document.querySelector(".buy-tix-button");
 
+      mdc.ripple.MDCRipple.attachTo(button);
       button.addEventListener("click", function() {
         window.open("https://www.tickettailor.com/events/swirlwinebarmarket/953584", "_blank");
       });
     </script>
-  </head>
-  <body class="hero_image">
-    <h1 id="title_text">Summer Coolers Workshop is here Where: Swirl When: Saturday August 26 4:30&mdash;6:30PM.<br />
-    <button class="btn-primary">Buy Tickets</button> <br/>
-    <a href="http://www.swirlnola.com/" target="_blank">swirlnola.com</a></h1>
-  </body>
+</body>
 </html>
