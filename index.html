@@ -5,6 +5,14 @@
     <link rel="stylesheet" href="/css/font_face.css" type="text/css">
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <style>
+      :root {
+          --mdc-theme-primary: #0f9015; 
+      }
+      .mdc-button--raised:not(:disabled), .mdc-button--unelevated:not(:disabled) {
+          background-color: var(--mdc-theme-primary,#0f9015);
+      }
+  </style>
   </head>
   <body class="hero_image">
     <div id="title_text">
