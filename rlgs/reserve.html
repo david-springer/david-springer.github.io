@@ -1,0 +1,71 @@
+<html>
+  <head>
+  <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/css/font_face.css" type="text/css">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <style>
+      :root {
+          --mdc-theme-primary: #E1E4D1;
+          --mdc-theme-on-primary: #333;
+      }
+      .mdc-button--raised:not(:disabled), .mdc-button--unelevated:not(:disabled) {
+          background-color: var(--mdc-theme-primary,#E1E4D1);
+      }
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <style>
+      table {
+        margin: 0 auto; /* Center the table */
+        border-collapse: collapse; /* Collapse table borders */
+      }
+
+      td {
+        padding: 10px; /* Add padding to cells */
+        text-align: center; /* Center content within cells */
+      }
+    </style>
+  </head>
+  <body style="background-color: #5B7860;">
+  <table style="width:60%;">
+    <tr>
+      <td>
+        <img src="/images/rlgs.png" alt="Your Image">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div style="display: none;">
+          <button class="mdc-button mdc-button--raised reserve-button">
+            <div class="mdc-button__ripple"></div>
+            <span class="mdc-button__label">Reserve your spot(s)</span>
+          </button>
+        </div>
+        <div style="color: #E1E4D1; font-size: 8pt;">
+          <h1>The next meeting is at capacity, but you can add your name to the waitlist:</h1>
+          <button class="mdc-button mdc-button--raised waitlist-button">
+            <div class="mdc-button__ripple"></div>
+            <span class="mdc-button__label">Add me to the waitlist</span>
+          </button>
+      </div>
+      </td>
+    </tr>
+  </table>
+  <script>
+    const reserveButton = document.querySelector(".reserve-button");
+
+    mdc.ripple.MDCRipple.attachTo(reserveButton);
+    reserveButton.addEventListener("click", function() {
+      window.open("https://account.venmo.com/u/acadianacanadian", "_blank");
+    });
+
+    const waitlistButton = document.querySelector(".waitlist-button");
+
+    mdc.ripple.MDCRipple.attachTo(waitlistButton);
+    waitlistButton.addEventListener("click", function() {
+      window.open("mailto:uncle.leos.mixed.drinks@gmail.com?subject='Add me to the RL&GS waitlist'", "_blank");
+    });
+  </script>
+  </body>
+</html>
