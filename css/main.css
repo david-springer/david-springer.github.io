@@ -39,8 +39,10 @@ a:active {
 }
 
 @media only screen and (max-width: 600px)
+/* @media (max-width: 600px) */
   /* Styles for mobile devices */
-  h1 .title_text {
+  .title_text {
       font-size: 8px;
+      color: lightcoral;
   }
 }
