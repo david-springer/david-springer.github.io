@@ -53,7 +53,7 @@
       </td>
     </tr>
   </table>
-  <script>
+  <script type="text/javascript">
     const reserveButton = document.querySelector(".reserve-button");
 
     mdc.ripple.MDCRipple.attachTo(reserveButton);
@@ -65,7 +65,12 @@
 
     mdc.ripple.MDCRipple.attachTo(waitlistButton);
     waitlistButton.addEventListener("click", function() {
-      window.open("mailto:uncle.leos.mixed.drinks@gmail.com?subject='Add me to the RL&GS waitlist'", "_blank");
+      /* Encode the mailto: URL */
+      var subject = "Add me to the RL&GS waitlist";
+      var body = "Please let me know if a spot opens up at the next Russian Literature & Gardening Society meeting.";
+      var mailtoLink = "mailto:uncle.leos.mixed.drinks@gmail.com?subject=" + encodeURIComponent(subject) +
+          "&body=" + encodeURIComponent(body)
+      window.open(mailtoLink, "_blank");
     });
   </script>
   </body>
