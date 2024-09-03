@@ -40,7 +40,7 @@ a:active {
 
 @media only screen and (max-width: 600px)
   /* Styles for mobile devices */
-  h1 {
+  h1 .title_text {
       font-size: 8px;
   }
 }
