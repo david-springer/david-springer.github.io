@@ -32,3 +32,17 @@ a:visited {
 a:active {
   color: blue;
 }
+
+@media only screen and (min-width: 390px) and (orientation: landscape)
+    /* Styles for mobile devices */
+    .h1 {
+        font-size: 8pt;
+    }
+}
+
+@media only screen and (min-height: 844px) and (orientation: portrait)
+    /* Styles for mobile devices */
+    .h1 {
+        font-size: 8pt;
+    }
+}
