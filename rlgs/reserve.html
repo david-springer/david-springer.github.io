@@ -48,6 +48,13 @@
             </button>
             </div>
           `;
+          // Set up the reservation button.
+          const reserveButton = document.querySelector(".reserve-button");
+
+          mdc.ripple.MDCRipple.attachTo(reserveButton);
+          reserveButton.addEventListener("click", function() {
+            window.open("https://account.venmo.com/u/acadianacanadian", "_blank");
+          });
         } else {
           reservationBannerElement.innerHTML = `
           <div id="waitlist" style="color: #E1E4D1">
@@ -58,6 +65,18 @@
             </button>
           </div>
           `;
+          // Set up the waitlist button.
+          const waitlistButton = document.querySelector(".waitlist-button");
+
+          mdc.ripple.MDCRipple.attachTo(waitlistButton);
+          waitlistButton.addEventListener("click", function() {
+            /* Encode the mailto: URL */
+            var subject = "Add me to the RL&GS waitlist";
+            var body = "Please let me know if a spot opens up at the next Russian Literature & Gardening Society meeting.";
+            var mailtoLink = "mailto:uncle.leos.mixed.drinks@gmail.com?subject=" + encodeURIComponent(subject) +
+                "&body=" + encodeURIComponent(body)
+            window.open(mailtoLink, "_blank");
+          });
         }
       }
     </script>
@@ -79,27 +98,7 @@
     </tr>
   </table>
   <script type="text/javascript">
-    // Set up the DOM elements for the reservations banner.
-    const reserveButton = document.querySelector(".reserve-button");
-
-    mdc.ripple.MDCRipple.attachTo(reserveButton);
-    reserveButton.addEventListener("click", function() {
-      window.open("https://account.venmo.com/u/acadianacanadian", "_blank");
-    });
-
-    const waitlistButton = document.querySelector(".waitlist-button");
-
-    mdc.ripple.MDCRipple.attachTo(waitlistButton);
-    waitlistButton.addEventListener("click", function() {
-      /* Encode the mailto: URL */
-      var subject = "Add me to the RL&GS waitlist";
-      var body = "Please let me know if a spot opens up at the next Russian Literature & Gardening Society meeting.";
-      var mailtoLink = "mailto:uncle.leos.mixed.drinks@gmail.com?subject=" + encodeURIComponent(subject) +
-          "&body=" + encodeURIComponent(body)
-      window.open(mailtoLink, "_blank");
-    });
-
-    // Render the reservations banner.
+    // Set up the reservations banner.
     enableReservations(false, "reservations-banner");
   </script>
   </body>
