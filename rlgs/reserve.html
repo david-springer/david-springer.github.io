@@ -73,14 +73,13 @@
     <tr>
       <td>
         <div id="reservations-banner">
-        <script type="text/javascript">
-          enableReservations(false, "reservations-banner");
-        </script>
+          <!-- This gets populated by the call to enableReservations(), below. -->
         </div>
       </td>
     </tr>
   </table>
   <script type="text/javascript">
+    // Set up the DOM elements for the reservations banner.
     const reserveButton = document.querySelector(".reserve-button");
 
     mdc.ripple.MDCRipple.attachTo(reserveButton);
@@ -99,6 +98,9 @@
           "&body=" + encodeURIComponent(body)
       window.open(mailtoLink, "_blank");
     });
+
+    // Render the reservations banner.
+    enableReservations(false, "reservations-banner");
   </script>
   </body>
 </html>
