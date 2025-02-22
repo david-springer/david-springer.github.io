@@ -26,30 +26,38 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <script>
       /**
-       * Enables reservations depending on the value of `enableFlag`. Reservations are enabled
-       * by displaying the `openDivId` and removing `closedDivId` from the DOM.
-       * Reservations are disabled by doing the reverse.
+       * Enables reservations depending on the value of `enableFlag`.
        *
        * @param {boolean} enableFlag Whether to enable or disable reservations.
-       * @param {string} openDivId The ID of the div to show when reservations are enabled.
-       * @param {string} closedDivId The ID of the div to show when reservations are disabled.
+       * @param {string} reservationBannerId The ID of the div that contains the reservations details.
        */
-      function enableReservations(/*boolean*/ enableFlag, /*string*/ openDivId, /*string*/ closedDivId) {
-        const openElement = document.getElementById(openDivId);
-        const closedElement = document.getElementById(closedDivId);
+      function enableReservations(/*boolean*/ enableFlag, /*string*/ reservationBannerId) {
+        const reservationBannerElement = document.getElementById(reservationBannerId);
 
         function printElement(elt, divId) {
           console.log(elt ? `open elt ${divId} not found` : `${divId} found`);
         }
-        printElement(openElement, openDivId);
-        printElement(closedElement, closedDivId);
+        printElement(reservationBannerElement, reservationBannerId);
 
         if (enableFlag) {
-          openElement.style.display = 'block';
-          closedElement.style.display = 'none';
+          reservationBannerElement.innerHTML = `
+          <div id="reservations">
+            <button class="mdc-button mdc-button--raised reserve-button">
+              <div class="mdc-button__ripple"></div>
+              <span class="mdc-button__label">Reserve your spot(s)</span>
+            </button>
+            </div>
+          `;
         } else {
-          openElement.style.display = 'none';
-          closedElement.style.display = 'block';
+          reservationBannerElement.innerHTML = `
+          <div id="waitlist" style="color: #E1E4D1">
+            <h1>The next meeting is at capacity, but you can add your name to the wait list:</h1>
+            <button class="mdc-button mdc-button--raised waitlist-button">
+              <div class="mdc-button__ripple"></div>
+              <span class="mdc-button__label">Add me to the waitlist</span>
+            </button>
+          </div>
+          `;
         }
       }
     </script>
@@ -67,20 +75,8 @@
     </tr>
     <tr>
       <td>
-        <div>
-        <div id="reservations">
-          <button class="mdc-button mdc-button--raised reserve-button">
-            <div class="mdc-button__ripple"></div>
-            <span class="mdc-button__label">Reserve your spot(s)</span>
-          </button>
+        <div id="reservations-banner">
         </div>
-        <div id="waitlist" style="color: #E1E4D1">
-          <h1>The next meeting is at capacity, but you can add your name to the wait list:</h1>
-          <button class="mdc-button mdc-button--raised waitlist-button">
-            <div class="mdc-button__ripple"></div>
-            <span class="mdc-button__label">Add me to the waitlist</span>
-          </button>
-      </div>
       </td>
     </tr>
   </table>
