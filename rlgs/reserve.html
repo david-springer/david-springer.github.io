@@ -37,8 +37,13 @@
       function enableReservations(/*boolean*/ enableFlag, /*string*/ openDivId, /*string*/ closedDivId) {
         const openElement = document.getElementById(openDivId);
         const closedElement = document.getElementById(closedDivId);
-        console.log(openElement ? 'open elt '${openDivId}' not found' : ${openDivId}' found');
-        console.log(closedElement ? 'open elt '${closedElement}' not found' : ${closedElement}' found');
+
+        function printElement(elt, divId) {
+          console.log(elt ? `open elt ${divId} not found` : `${divId} found`);
+        }
+        printElement(openElement, openDivId);
+        printElement(closedElement, closedDivId);
+
         if (enableFlag) {
           openElement.style.display = 'block';
           closedElement.style.display = 'none';
