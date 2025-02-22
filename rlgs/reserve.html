@@ -31,7 +31,7 @@
        * @param {boolean} enableFlag Whether to enable or disable reservations.
        * @param {string} reservationBannerId The ID of the div that contains the reservations details.
        */
-      function enableReservations(/*boolean*/ enableFlag, /*string*/ reservationBannerId) {
+      function enableReservations(enableFlag, reservationBannerId) {
         const reservationBannerElement = document.getElementById(reservationBannerId);
 
         function printElement(elt, divId) {
@@ -100,7 +100,7 @@
   </table>
   <script type="text/javascript">
     // Set up the reservations banner.
-    enableReservations(false, "reservations-banner");
+    enableReservations(/*enableFlag=*/false, "reservations-banner");
   </script>
   </body>
 </html>
