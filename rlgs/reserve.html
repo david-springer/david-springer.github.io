@@ -37,7 +37,8 @@
         function printElement(elt, divId) {
           console.log(elt ? `${divId} found` : `open elt ${divId} not found`);
         }
-        printElement(reservationBannerElement, reservationBannerId);
+        // Uncomment for debugging.
+        // printElement(reservationBannerElement, reservationBannerId);
 
         if (enableFlag) {
           reservationBannerElement.innerHTML = `
@@ -99,7 +100,7 @@
   </table>
   <script type="text/javascript">
     // Set up the reservations banner.
-    enableReservations(false, "reservations-banner");
+    enableReservations(true, "reservations-banner");
   </script>
   </body>
 </html>
