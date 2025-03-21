@@ -20,8 +20,14 @@
     <div class="title_text_container">
       <h1>Russian Literature and Gardening Society<br />
         Where: Uncle Leo's Mixed Drinks<br />
-        When: Every third Friday of the month.<br />
-        Follow us on <a href="https://instagram.com/uncleleosmixeddrinks">Instagram</a> for the latest.<br /> 
+        When: Every third Friday of the month.
+        <p>
+          <button class="mdc-button mdc-button--raised send-email-button">
+            <div class="mdc-button__ripple"></div>
+            <span class="mdc-button__label">Email us</span>
+          </button>
+        </p>
+        <p>Follow us on <a href="https://instagram.com/uncleleosmixeddrinks">Instagram</a> for the latest.</p> 
       </h1>
       <a href="https://instagram.com/uncleleosmixeddrinks">
         <span style="font-size: 3rem; color: white;"><i class="fab fa-instagram"></i></span>
@@ -30,13 +36,15 @@
         <a href="rlgs/PrivacyPolicy.html">Privacy Policy</a>
       </div>
       <script>
-        const button = document.querySelector(".buy-tix-button");
+        const button = document.querySelector(".send-email-button");
 
         mdc.ripple.MDCRipple.attachTo(button);
         button.addEventListener("click", function() {
-          window.open("https://www.swirlnola.com/newsletter", "_blank");
+          const mailtoLink = `mailto:${encodeURIComponent("uncleleo@uncleleosmixeddrinks.com")}?subject=${encodeURIComponent("Tell me more about the Russian Literature and Gardening Society")}`;
+
+          window.location.href = mailtoLink;
         });
       </script>
-  </div>
-</body>
+    </div>
+  </body>
 </html>
