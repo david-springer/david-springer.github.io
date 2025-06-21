@@ -54,9 +54,7 @@
 
           mdc.ripple.MDCRipple.attachTo(reserveButton);
           reserveButton.addEventListener("click", function() {
-            //window.open("https://account.venmo.com/u/uncleleo_nola", "_blank");
             window.open("https://venmo.com/uncleleo_nola?txn=pay&amount=20&note=RL%26GS", "_blank");
-            //window.open("venmo://pay?recipients=uncleleo_nola&amount=20&note=RL%26GS", "_blank");
           });
         } else {
           reservationBannerElement.innerHTML = `
@@ -102,7 +100,7 @@
   </table>
   <script type="text/javascript">
     // Set up the reservations banner.
-    enableReservations(/*enableFlag=*/true, "reservations-banner");
+    enableReservations(/*enableFlag=*/false, "reservations-banner");
   </script>
   </body>
 </html>
