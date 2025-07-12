@@ -2,3 +2,4 @@ user-agent: *
 user-agent: AdsBot-Google
 disallow: /rlgs
 disallow: /rougarou
+disallow: /images
