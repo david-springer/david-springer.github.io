@@ -1,0 +1,58 @@
+<html>
+  <head>
+  <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/css/font_face.css" type="text/css">
+    <link rel="stylesheet" href="/css/gallery.css" type="text/css">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <style>
+      :root {
+          --mdc-theme-primary: #E1E4D1;
+          --mdc-theme-on-primary: #333;
+      }
+      .mdc-button--raised:not(:disabled), .mdc-button--unelevated:not(:disabled) {
+          background-color: var(--mdc-theme-primary,#E1E4D1);
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body style="background-color: #2e2e2e;"> <!-- 18% grey -->
+    <div class="gallery-container">
+        <div class="slides">
+          <div><img src="/images/BayouBoeufV.jpg" alt="Pastel on paper, titled Bayou Boeuf Five." /></div>
+          <div><img src="/images/CityParkBridge.jpg" alt="Pastel on paper, titled Bridge in New Orleans City Park Lagoon." /></div>
+          <div><img src="/images/EvangelineRiceFields.jpg" alt="Pastel on paper, titled Rice Fields, Evangeline Parsh." /></div>
+          <div><img src="/images/LakePalourdeII.jpg" alt="Pastel on paper, titled Lake Palourde Two." /></div>
+          <div><img src="/images/LiveOakTree.jpg" alt="Pastel on paper, titled live oak tree." /></div>
+        </div>
+        <div class="scrollbar"> <div class="thumb"></div> </div>
+    </div>
+    <script type="text/javascript">
+      const slideGallery = document.querySelector(".slides");
+      const slides = slideGallery.querySelectorAll("div"); // Assuming slides are direct children divs
+      const scrollbarThumb = document.querySelector(".thumb");
+      const slideCount = slides.length;
+      const slideHeight = window.innerHeight; // Assuming each slide takes full viewport height
+
+      // Function to update the custom scrollbar thumb's height based on scroll progress
+      const scrollThumb = () => {
+          const currentScrollTop = slideGallery.scrollTop;
+          // Calculate which slide is currently in view (or closest to the top)
+          const index = Math.floor(currentScrollTop / slideHeight);
+          // Calculate the height of the thumb based on the proportion of content scrolled
+          // This example scales thumb height based on the number of slides viewed
+          scrollbarThumb.style.height = `${((index + 1) / slideCount) * slideGallery.clientHeight}px`;
+          // For a more precise scroll position indicator, especially for long galleries,
+          // one might calculate `top` or `transform: translateY` based on scroll progress
+          // relative to the total scrollable height.
+      };
+
+      // Register scroll event listener for the main gallery to update the custom thumb
+      slideGallery.addEventListener("scroll", scrollThumb);
+
+      // Initial call to set the thumb's position when the page loads
+      scrollThumb();
+  </script>
+  </body>
+</html>

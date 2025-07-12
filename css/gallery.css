@@ -1,0 +1,47 @@
+/** CSS that handles the vertical-scrolling gallery. */
+
+.gallery-container {
+    display: flex;
+    justify-content: center; /* Centers the slides horizontally */
+    height: 100vh; /* Full viewport height for the gallery */
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+.gallery-container::-webkit-scrollbar {
+    display: none; /* For Webkit browsers (Chrome, Safari) */
+}
+.slides {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    /* No scroll-snap-align here, it's on direct children for individual snapping */
+}
+.slides > div {
+    flex: 0 0 auto; /* Prevent stretching, maintain size based on content/children */
+    scroll-snap-align: start; /* Ensure individual slides snap to the start of the container */
+    height: 100vh; /* Each slide takes full viewport height */
+    width: 100vw; /* Each slide takes full viewport width */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center image within its slide div */
+}
+.slides img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Or 'cover' depending on desired behavior for filling the slide div */
+    /* Consider aspect-ratio here or on the parent div for consistent sizing */
+}
+/* Custom scrollbar styling [4] */
+.scrollbar {
+    width: 1px;
+    height: 720px; /* Example height, this should be dynamically set based on gallery height */
+    background: #ccc;
+    display: block;
+    margin: 0 0 0 8px; /* Position to the right of the gallery */
+}
+.thumb {
+    width: 1px;
+    height: 0; /* Will be set by JavaScript */
+    background: #333;
+}
