@@ -1,7 +1,10 @@
 /* CSS overrides and classes for the entire page. */
 
 body {
-  font-family: 'Tex Gyre Adventor', Futura, 'Century Gothic', helvetica, sans-serif;
+  font-family: 'TorontoSubway', Futura, 'Century Gothic', helvetica, sans-serif;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;  /* use kerning for improved letter spacing */
+  -webkit-font-smoothing: antialiased; /* prevent heavy font appearance in Safari */
 }
 
 
