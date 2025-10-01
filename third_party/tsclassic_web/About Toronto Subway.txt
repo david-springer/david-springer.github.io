@@ -1,0 +1,138 @@
+QUADRAT COMMUNICATIONS 
+DESKTOP FONT END-USER LICENCE AGREEMENT 
+ 
+Thank you for purchasing a licence for Toronto Subway™. This
+document contains information about the features of the Toronto
+Subway fonts.
+
+If you have purchased a licence for the desktop font(s) they may
+be installed on Macintosh, Windows or Linux operating systems.
+Please check your operating system documentation for information
+on how to install the font(s).
+
+If you have purchased a licence for the web fonts they may be
+installed on any websites you either own or maintain. Please check
+the HTML documentation in this package for information on how to
+install the web fonts. Note that the web fonts are for use on
+websites only, they will not work on desktop computers.
+
+
+     HISTORY OF TORONTO SUBWAY 
+
+Toronto Subway is based on the lettering originally used for
+station identification and signs by the Toronto Transit Commission
+(TTC) in the Toronto, Canada, subway system. The first subway line
+opened in 1954. Over the years and subsequent expansion of the
+subway, the signs became corrupted by the use of other typefaces
+such as Helvetica and Gill Sans. The lettering on the original
+signs consists only of uppercase characters and a few bits of
+punctuation in two weights — the Regular and Bold.  Their style
+was followed as much as possible in designing the lowercase,
+punctuation and other special characters.
+
+The Toronto Subway family was expanded in 2014 with the addition
+of the Light and Black weights. 
+
+     YOUR LICENCE 
+
+The desktop fonts may be installed on computers running the
+Macintosh, Windows or Linux operating systems. The desktop licence
+covers using the fonts on all operating systems up to a total of
+six computers (or more, if you have purchased a licence for
+additional computers). Please read the desktop font licence for
+details.
+
+Web fonts may be installed on any websites you own or maintain.
+Please read the web font licence for details. 
+
+     CHARACTER SETS 
+
+The Toronto Subway desktop fonts contain an extended Unicode-based
+character set that includes support for the Basic Latin, Latin-1
+Supplement and Latin ­Extended-A coderanges. The charts on pages 5
+and 6 of the PDF file show all the characters in the fonts. 
+
+     STANDARD LIGATURES
+
+All the Toronto Subway fonts contain the  standard ligatures for
+ff, fi, fl, ft, ffi and ffl.
+
+     OPENTYPE FEATURES
+
+The Toronto Subway desktop fonts contain several OpenType
+features, which you can use in those software applications that
+support them. Check your application documentation on whether it
+supports, and how to use, the following features.
+
+     DISCRETIONARY LIGATURES
+     
+In addition to the standard ligatures, all the Toronto Subway
+fonts contain the following OpenType discretionary ligatures for
+fj, Fi and Ti.
+
+     OLDSTYLE FIGURES
+     
+Oldstyle figures look better with running text because the align
+with the x-height of the font instead of the height of the
+capitals. You can use oldstyle figures using the OpenType
+proportional oldstyle feature. Type your text normally. Highlight
+the text you want to convert to oldstyle figures and apply the
+OpenType proportional oldstyle feature. Depending on your software
+application you may also be able to set proportional oldstyle
+figures as the default figure style. The proportional oldstyle
+feature also converts currency and some other symbols to oldstyle
+versions.
+
+     FRACTIONS
+     
+You can create fractions using the OpenType fraction feature. Type
+your fractions normally. Highlight the numbers you want to convert
+to fractions and apply the OpenType fractions feature.
+
+     ORDINALS
+     
+You can create ordinal numbers using the OpenType ordinal feature.
+Type your text normally. You can use either lowercase or uppercase
+for your ordinal numbers. Highlight the text you want to convert
+to ordinals and apply the OpenType ordinals feature.
+
+     SUPERIOR CHARACTERS
+     
+You can create superior numbers and currency symbols using the
+OpenType superior feature. Type your text normally. Highlight the
+parts of the text you want to convert to superior case and apply
+the OpenType superior feature.
+
+     UPPERCASE PUNCTUATION
+
+You can use uppercase parentheses, brackets, braces, punctuation
+and @ to better fit all-uppercase text and numbers using the
+OpenType case feature. Type your text normally. Highlight all the
+text you want to use uppercase punctuation and apply the OpenType
+case (sometimes called “all caps”) feature.
+
+     ALTERNATE CHARACTERS
+
+Toronto Subway Light contains alternate versions of P and R. You
+can use these versions by turning on OpenType stylistic set 1.
+
+Toronto Subway Black contains an alternate version of J for
+slightly tighter fitting. You can use this alternate by turning on
+OpenType stylistic set 1.
+
+     ARROWS AND SYMBOLS
+     
+All the Toronto Subway fonts contain the following arrows and
+symbols from the Toronto transit system. Check your software
+application documentation on how to access them.
+
+
+Quadrat Communications 
+11 Givins Street 
+Toronto, Ontario 
+Canada  M6J 2X5 
+telephone: +1 416 537 4936 
+fontsupport@quadrat.com 
+http://www.quadrat.com/ 
+
+11 May 2015 

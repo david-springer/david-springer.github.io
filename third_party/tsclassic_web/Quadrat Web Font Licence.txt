@@ -1,0 +1,184 @@
+QUADRAT COMMUNICATIONS 
+WEB FONT END-USER LICENCE AGREEMENT 
+
+LICENCE: By using the web fonts (the "Web Fonts") provided by 
+Quadrat Communications ("Quadrat"), you are agreeing to abide by 
+the terms of this Licence Agreement (this "Licence") between you 
+and Quadrat. You should read it carefully, as your agreement to 
+its terms will be presumed. If you do not understand the terms of 
+this Licence, you should review it with a lawyer. This Licence 
+will be enforceable just like any written agreement signed by you. 
+If you are not in agreement with terms of this Licence, you must 
+immediately delete all of the Web Fonts from all Permitted 
+Websites and Permitted Web-hosting Servers (as those two terms are 
+defined below), and a full refund will be given. The other terms 
+and conditions of this Licence are as follows: 
+
+1.	Grant of Rights: Subject to the other terms and conditions 
+of this Licence, you are hereby granted a non-exclusive, 
+non-transferable licence to use the Web Fonts and their supporting 
+files and documentation for an indefinite period of time to create 
+web pages on as many of the websites owned or maintained by you as 
+your receipt, which must be attached hereto as Schedule "A", 
+indicates that you have paid for ("Permitted Websites"), and to 
+display those websites on the Internet. In the absence of a 
+receipt being attached as Schedule "A", you will be deemed to have 
+not paid for this Licence, and your use of the Web Fonts is 
+strictly prohibited. 
+
+2.	Ownership of Web Fonts: You do not own the Web Fonts. 
+Ownership of the Web Fonts and all intellectual property rights 
+relating thereto remains with Quadrat. You simply have permission 
+to use them, subject to the terms and conditions of this Licence. 
+
+3.	Web Hosting Servers: You may install the Web Fonts on any 
+web hosting servers required to support the Permitted Websites 
+("Permitted Web-hosting Servers"). 
+
+4.	No Modifications: Any modification of the Web Fonts is 
+expressly prohibited, and is a breach of this Licence, which will 
+result in, among other things, the immediate termination of same. 
+
+5.	No Embedding: Embedding of the Web Fonts in other documents 
+is expressly prohibited. Any alterations to the Web Fonts to allow 
+embedding is a breach of this Licence and will result in, among 
+other things, the immediate termination of same. 
+
+6.	No Reverse Engineering: You are prohibited from reverse 
+engineering, decompiling, disassembling, or otherwise attempting 
+to discover the source code of the Web Fonts. 
+
+7.	Restriction on Copying: You are permitted to copy the Web 
+Fonts only to the extent that copying occurs when you upload the 
+Web Fonts to a web server. 
+
+8.	Unauthorized Use: All rights not expressly granted to you in 
+this Licence are expressly reserved to Quadrat, and any use of or 
+access to the Web Fonts that is not expressly authorized by this 
+Licence is a breach of this Licence, and Quadrat will be entitled 
+to take immediate action to rectify such breach. 
+
+9.	Licence and Web Fonts Not Assignable: This Licence is 
+personal to you, and you may not assign or sublicense this Licence 
+or any rights under this Licence, or otherwise transfer or 
+distribute the Web Fonts, or any copy or modified form of any Web 
+Fonts, to any other person or business unless such other person or 
+business agrees to be bound by the terms of this Licence and you 
+first delete all copies of the Web Fonts in your possession. You 
+must advise Quadrat immediately of any such assignment. 
+
+10.	No Use Without Payment: If Quadrat discovers that you are 
+using the Web Fonts without remitting the appropriate payment for 
+same, you will forthwith be required to remit the payment required 
+for such use, at twice the then-current licence cost. 
+
+11.	Termination: This Licence will terminate immediately upon 
+any breach of the terms and conditions of same. Following any 
+termination of this Licence, you must immediately delete all 
+copies of the Web Fonts from all Permitted Websites and Permitted 
+Web-hosting Servers and any other location in your possession or 
+under your control. 
+
+12.	Remedies for Breach of Licence: You hereby agree that 
+monetary damages are insufficient to compensate Quadrat for any 
+breach of this Licence. You agree that irreparable harm would 
+accrue to Quadrat in the event of such breach. If this Licence is 
+breached in any way, Quadrat will have the immediate right to seek 
+an injunction to stop such breach, without prejudice to any other 
+legal or equitable rights and remedies that it may have. 
+
+13.	Intellectual Property Rights: The Web Fonts and any copies 
+that you are authorized by Quadrat to make are the copyrighted 
+material, intellectual property of and are owned exclusively by 
+Quadrat throughout the world. The structure, organization and code 
+of the Web Fonts are the valuable trade secrets, confidential and 
+proprietary information of Quadrat. The Web Fonts are protected by 
+copyright. You will not acquire any rights, express or implied, 
+in the Web Fonts other than those expressly set out in this 
+Licence. 
+
+14.	Intellectual Property Notices: You may not delete or change 
+any copyright or trademark notice that accompanies or is 
+incorporated into the Web Fonts or their supporting files or 
+documentation, and no other copyright or trademark notice may 
+accompany or be incorporated into the Web Fonts, or any modified 
+form of the Web Fonts, or in any related files or documentation. 
+
+17.	Limitation of Liability: You agree to use the Web Fonts at 
+your own risk. This software is provided on an "as is" basis. It 
+is your responsibility to ensure that you have the proper hardware 
+and safeguards in place to properly use the Web Fonts. Except as 
+expressly set out elsewhere in this Licence, there are no express 
+or implied representations, warranties or conditions of any kind 
+in respect of the Web Fonts or the services provided by Quadrat. 
+Further, Quadrat will not be liable to you or any other person or 
+business for any indirect, special or consequential damages 
+related to this Licence. Quadrat's entire liability under this 
+Licence for damages from any cause whatsoever, at law or by 
+statute, regardless of the form or cause of action, will not 
+exceed the total amount actually paid by you to Quadrat pursuant 
+to this Licence in the six (6) months immediately prior to your 
+damages or loss. 
+
+18.	Currency: Unless otherwise stated, all dollar amounts 
+referred to in this Agreement are in lawful Canadian currency. 
+
+19.	Taxes: In addition to the fees payable for the Web Fonts 
+set out elsewhere on this website, you will pay to Quadrat all 
+taxes payable by you pursuant to this Licence. 
+
+20.	Infringement Indemnity: You will defend and indemnify 
+Quadrat with respect to all damages, costs, fees, judgments and 
+other expenses (including reasonable legal fees and expenses) 
+incurred by Quadrat arising from any breach by you of this 
+Licence, provided that Quadrat must notify you in writing within 
+thirty (30) days of any such claim. 
+
+21.	Force Majeure: Quadrat will not be liable for any delay or 
+failure to perform under this Licence if such delay or failure is 
+due to any event or situation beyond its reasonable control, 
+including but not limited to war, explosion, fire, flood, 
+earthquake, epidemic, act of civil or military authorities, labour 
+dispute or civil disturbance. 
+
+22.	Relationship of Parties: You and Quadrat are independent 
+contractors. Nothing in this Licence will be construed to place 
+us in a relationship of principal and agent, employer and 
+employee, partners, associates, affiliates or joint venturers, and 
+neither of us will have the power to obligate or bind the other in 
+any manner whatsoever. 
+
+23.	Governing Law: This Licence and all matters relating to 
+same will be governed in accordance with the laws of the Province 
+of Ontario and the laws of Canada applicable therein, regardless 
+of where you reside, work or carry on business, or where the Web 
+Fonts are used, stored or displayed. Any dispute or matter arising 
+from this Licence or your use of the Web Fonts will be determined 
+in the courts of the City of Toronto, Province of Ontario. 
+
+24.	Severability: If any provision of this Licence is 
+determined to be invalid, void or unenforceable, it will be 
+severed from the remaining agreement. The remaining provisions of 
+this License will continue in full force and effect. 
+
+25.	Waiver: No waiver by either party of any term or provision 
+of this Licence, whether express or implied, will constitute a 
+continuing waiver of such term or provision, or a waiver of any 
+other term of this Agreement. 
+
+26.	Entire Agreement: This Licence contains the entire 
+agreement between the parties regarding the Web Fonts. No 
+collateral warranty or agreement, or previous agreement of any 
+sort regarding the Web Fonts, whether written or oral, will have 
+any effect whatsoever. 
+
+Quadrat Communications
+11 Givins Street
+Toronto, Ontario
+Canada
+M6J 2X5
+telephone: 416-537-4936
+email: fontsupport@quadrat.com
+http://www.quadrat.com/
+
+1 December 2011

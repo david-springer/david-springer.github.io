@@ -1,0 +1,25 @@
+/* Sample @font-face declarations. */
+
+@font-face {
+    font-family: 'TorontoSubway';
+    src: url('Fonts/toronto_subway_regular-web.eot');
+    src: url('Fonts/toronto_subway_regular-web.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/toronto_subway_regular-web.woff2') format('woff2'),
+         url('Fonts/toronto_subway_regular-web.woff') format('woff'),
+         url('Fonts/toronto_subway_regular-web.ttf') format('truetype'),
+         url('Fonts/toronto_subway_regular-web.svg#TorontoSubwayRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TorontoSubway';
+    src: url('Fonts/toronto_subway_bold-web.eot');
+    src: url('Fonts/toronto_subway_bold-web.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/toronto_subway_bold-web.woff2') format('woff2'),
+         url('Fonts/toronto_subway_bold-web.woff') format('woff'),
+         url('Fonts/toronto_subway_bold-web.ttf') format('truetype'),
+         url('Fonts/toronto_subway_bold-web.svg#TorontoSubwayBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
