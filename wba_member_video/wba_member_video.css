@@ -1,0 +1,59 @@
+/* Basic Reset and Container Setup */
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* 1. Base styles for the container 
+  - Width: 100% of the parent
+  - position: relative is needed to correctly position the child content (aspect-ratio-content)
+*/
+.aspect-ratio-box {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* The modern, simple way */
+    background-color: #00ff00;
+    border: 1px solid #333;
+    /* Optional: style content as needed within this container */
+}
+
+/* 2. The Content Wrapper 
+  - position: absolute ensures it covers the padding-generated space perfectly.
+*/
+.aspect-ratio-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Prevent content from breaking out */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Slide Content to position over the wrapper's padded area. The slide
+ * is positioned so that its bottom edge is aligned with the vertical
+ * centre of the page, and the height of the slide makes it 20px from
+ * the top of the page.
+ */
+.slide-content {
+    position: absolute;
+    right: 20px;
+    bottom: 50%;
+    object-fit: contain;
+    height: calc(50vh - 20px);
+}
+
+/* 3. Media Query to target phones in portrait mode 
+  - Targets screens up to 768px wide in portrait orientation
+*/
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  .aspect-ratio-box {
+    /* Modern approach: sets the preferred width-to-height ratio directly.
+      This works well when *one* dimension (like width) is already defined (e.g., 100%).
+    */
+    aspect-ratio: 16 / 9;
+    height: auto; /* Ensure height adjusts based on aspect-ratio and defined width */
+  }
+}
