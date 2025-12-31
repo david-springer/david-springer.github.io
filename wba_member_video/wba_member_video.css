@@ -4,6 +4,10 @@ body, html {
     font-family: sans-serif;
 }
 
+.main-content {
+
+}
+
 /* 1. Base styles for the container 
   - Width: 100% of the parent
   - position: relative is needed to correctly position the child content (aspect-ratio-content)
@@ -45,15 +49,45 @@ body, html {
     height: calc(50vh - 20px);
 }
 
+/* --- Overlay Styling (Hidden by default) --- */
+.rotate-overlay {
+    display: none; /* Starts hidden */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Viewport width */
+    height: 100vh; /* Viewport height */
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    z-index: 9999; /* Ensures it's on top of everything */
+    text-align: center;
+    padding-top: 50vh; /* Push the text to the center vertically */
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
 /* 3. Media Query to target phones in portrait mode 
   - Targets screens up to 768px wide in portrait orientation
 */
 @media only screen and (max-width: 768px) and (orientation: portrait) {
   .aspect-ratio-box {
     /* Modern approach: sets the preferred width-to-height ratio directly.
-      This works well when *one* dimension (like width) is already defined (e.g., 100%).
-    */
+     * This works well when *one* dimension (like width) is already defined (e.g., 100%).
+     */
     aspect-ratio: 16 / 9;
     height: auto; /* Ensure height adjusts based on aspect-ratio and defined width */
-  }
+    }
+
+    /* --- Media Query: Show Overlay on Mobile Portrait Mode --- */
+    /* This query targets devices that are likely phones (max-width: 768px) 
+     * AND are currently in portrait orientation (height > width). */
+    .rotate-overlay {
+        display: block; /* Overrides 'display: none' and shows the overlay */
+    }
+    /* Hide the main content in portrait. */
+    .main-content {
+        display: none;
+    }
 }
+
+
