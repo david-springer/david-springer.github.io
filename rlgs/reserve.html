@@ -29,7 +29,7 @@
        * Enables reservations depending on the value of `enableFlag`.
        *
        * @param {boolean} enableFlag Whether to enable or disable reservations.
-       * @param {string} reservationBannerId The ID of the div that contains the reservations details.
+       * @param {string} reservationBannerId The ID of the div holding the reservations details.
        */
       function enableReservations(enableFlag, reservationBannerId) {
         const reservationBannerElement = document.getElementById(reservationBannerId);
@@ -54,7 +54,7 @@
 
           mdc.ripple.MDCRipple.attachTo(reserveButton);
           reserveButton.addEventListener("click", function() {
-            window.open("https://venmo.com/uncleleo_nola?txn=pay&amount=20&note=RL%26GS", "_blank");
+            window.open("https://venmo.com/uncleleo_nola?txn=pay&amount=22.22&note=RL%26GS", "_blank");
           });
         } else {
           reservationBannerElement.innerHTML = `
